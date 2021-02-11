@@ -6,10 +6,10 @@
   <body>
     <div id="interest-calculator">
       <h1>Simple Interest Calculator</h1>
-      <form onsubmit="showResults()">
+      <form id="calculator-form">
         <span>
           <label for="amount">Amount</label>
-          <input type="text" name="amount" />
+          <input type="text" name="amount" id="amount" />
         </span>
         <span>
           <label for="interestRate">Interest Rate</label>
@@ -39,7 +39,7 @@
           </select>
         </span>
         <span>
-          <button>Compute Interest</button>
+          <button onclick="compute()">Compute Interest</button>
         </span>
       </form>
       <legend>&copy; Everyone Can Get Rich</legend>
