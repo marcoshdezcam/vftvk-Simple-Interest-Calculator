@@ -1,4 +1,58 @@
-body {background-color:tan;}
-h1{color:green;}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@900&display=swap");
 
+body {
+  background-color: black;
+}
 
+h1 {
+  color: rgb(148, 148, 148);
+  margin: 0 auto;
+  font-family: "Roboto Slab", serif;
+}
+
+#interest-calculator {
+  font-family: "Montserrat", sans-serif;
+  width: 500px;
+  height: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#interest-calculator form {
+  width: 70%;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#interest-calculator form span {
+  display: flex;
+  margin: 2px 0;
+}
+
+#interest-calculator label {
+  width: 35%;
+}
+
+#computeInterest {
+  width: fit-content;
+  font-size: 14px;
+  margin: 0 0 0 15%;
+}
+
+#results {
+  display: none;
+  margin: 10px 0 10px 15%;
+}
+
+#interest-calculator legend {
+  position: relative;
+}
