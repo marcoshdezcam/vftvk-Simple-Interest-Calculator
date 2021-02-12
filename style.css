@@ -15,8 +15,8 @@ h1 {
   font-family: "Montserrat", sans-serif;
   width: 500px;
   height: 250px;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 25px;
   background-color: white;
   display: flex;
@@ -28,7 +28,7 @@ h1 {
   width: 70%;
   font-size: 16px;
   line-height: 22px;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
 }
@@ -42,9 +42,15 @@ h1 {
   width: 35%;
 }
 
-#interest-calculator form button {
+#computeInterest {
   width: fit-content;
   font-size: 14px;
+  margin: 0 0 0 15%;
+}
+
+#results {
+  display: none;
+  margin: 10px 0 10px 15%;
 }
 
 #interest-calculator legend {
