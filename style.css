@@ -11,6 +11,11 @@ h1 {
   font-family: "Roboto Slab", serif;
 }
 
+mark {
+  background-color: yellow;
+  color: black;
+}
+
 #interest-calculator {
   font-family: "Montserrat", sans-serif;
   width: 500px;

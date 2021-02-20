@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title>Web App - Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -9,13 +10,7 @@
       <form id="calculator-form" name="calculator">
         <span>
           <label for="amount">Amount</label>
-          <input
-            type="number"
-            name="amount"
-            id="amount"
-            required
-            oninput="validateAmount()"
-          />
+          <input type="number" name="amount" id="amount" required />
         </span>
         <span>
           <label for="interestRate">Interest Rate</label>
@@ -23,7 +18,7 @@
             type="range"
             name="interestRate"
             id="interestRate"
-            min="0"
+            min="1"
             max="20"
             step="0.5"
             oninput="updateSliderPosition()"
